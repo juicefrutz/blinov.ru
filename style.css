@@ -1,0 +1,84 @@
+*{
+	margin: 0 auto; text-align: center;
+}
+body{
+	background-color: #F4A460;
+	}
+p {
+    text-indent: 20px; /* Отступ первой строки в пикселах */
+   }
+.image img {
+	border: 3px solid #DAA520;
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ 	}
+.image img:hover{
+ -webkit-transform: scale(1.5);
+ -moz-transform: scale(1.5);
+ -o-transform: scale(1.5);
+ 	}
+#fstimg img{
+	margin: 10px;
+	max-width: 650px;
+	max-height: 370px;
+	margin-top: 50px;
+	}
+#second img{
+	margin: 10px;
+	max-width: 650px;
+	max-height: 370px;
+	margin-top: 50px;
+}
+.dscrpt{
+	font-family: "Compact", "Natasha", "Wi_Guru1", "Arial";
+	font-size: 30px;
+	}
+#oil{
+	background-color: #FFEFD5;
+	padding: 10px;
+	border:3px solid #B8860B;
+	text-align: left;
+	margin-top: 20px;
+	max-width:1200px;
+	font-family: "Verdana";
+	font-size: 20px;
+}
+#shab{
+	float: middle;
+	max-width:1300px;
+	min-height:200px;
+}
+#name{
+	float: middle;
+	padding-right: 100px;
+	padding-top: 70px;
+}
+#name img{
+	max-width:800px;
+	height:35px
+}
+#logo{
+	float: left;
+}
+#logo img{
+	max-width: 325px;
+	min-height: 185px;
+}
+header{
+	border-bottom: 3px solid #B8860B;
+	max-width: 100%;
+	background-color: #ffe4b5;
+	min-height: 200px;
+	}
+main{
+	padding-top: 10px;
+	padding-bottom: 40px;
+	text-align: middle;
+	max-width:1300px;
+	min-height: 100%;
+	background-color: #FFDAB9;
+	border-left: 3px solid #B8860B;
+	border-right: 3px solid #B8860B;
+	border-bottom: 3px solid #B8860B;
+}
